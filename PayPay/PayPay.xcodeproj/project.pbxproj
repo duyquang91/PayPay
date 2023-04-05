@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A6E454329DDC61B005D5DA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E454229DDC61B005D5DA4 /* AppDelegate.swift */; };
+		5A6E454529DDC61B005D5DA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E454429DDC61B005D5DA4 /* SceneDelegate.swift */; };
+		5A6E454729DDC61B005D5DA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E454629DDC61B005D5DA4 /* ViewController.swift */; };
+		5A6E454A29DDC61B005D5DA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6E454829DDC61B005D5DA4 /* Main.storyboard */; };
+		5A6E454C29DDC61D005D5DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6E454B29DDC61D005D5DA4 /* Assets.xcassets */; };
+		5A6E454F29DDC61D005D5DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6E454D29DDC61D005D5DA4 /* LaunchScreen.storyboard */; };
+		5A6E455A29DDC61E005D5DA4 /* PayPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E455929DDC61E005D5DA4 /* PayPayTests.swift */; };
+		5A6E457429DDCC81005D5DA4 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E457329DDCC81005D5DA4 /* Differentiator */; };
+		5A6E457629DDCC81005D5DA4 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E457529DDCC81005D5DA4 /* RxDataSources */; };
+		5A6E457A29DDCD59005D5DA4 /* RxFlow in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E457929DDCD59005D5DA4 /* RxFlow */; };
+		5A6E457D29DDCDA3005D5DA4 /* RxSwiftExt in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E457C29DDCDA3005D5DA4 /* RxSwiftExt */; };
+		5A6E458629DDCE86005D5DA4 /* RxRealm in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E458529DDCE86005D5DA4 /* RxRealm */; };
+		5A6E458829DDCE9D005D5DA4 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E458729DDCE9D005D5DA4 /* RxMoya */; };
+		5A6E458A29DDCEA2005D5DA4 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E458929DDCEA2005D5DA4 /* Moya */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A6E455629DDC61E005D5DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A6E453729DDC61B005D5DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A6E453E29DDC61B005D5DA4;
+			remoteInfo = PayPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A6E453F29DDC61B005D5DA4 /* PayPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6E454229DDC61B005D5DA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A6E454429DDC61B005D5DA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A6E454629DDC61B005D5DA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A6E454929DDC61B005D5DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A6E454B29DDC61D005D5DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A6E454E29DDC61D005D5DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A6E455029DDC61D005D5DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6E455529DDC61E005D5DA4 /* PayPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6E455929DDC61E005D5DA4 /* PayPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPayTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A6E453C29DDC61B005D5DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6E458829DDCE9D005D5DA4 /* RxMoya in Frameworks */,
+				5A6E457A29DDCD59005D5DA4 /* RxFlow in Frameworks */,
+				5A6E457429DDCC81005D5DA4 /* Differentiator in Frameworks */,
+				5A6E457D29DDCDA3005D5DA4 /* RxSwiftExt in Frameworks */,
+				5A6E457629DDCC81005D5DA4 /* RxDataSources in Frameworks */,
+				5A6E458A29DDCEA2005D5DA4 /* Moya in Frameworks */,
+				5A6E458629DDCE86005D5DA4 /* RxRealm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6E455229DDC61E005D5DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A6E453629DDC61B005D5DA4 = {
+			isa = PBXGroup;
+			children = (
+				5A6E454129DDC61B005D5DA4 /* PayPay */,
+				5A6E455829DDC61E005D5DA4 /* PayPayTests */,
+				5A6E454029DDC61B005D5DA4 /* Products */,
+				5A6E458429DDCE7F005D5DA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A6E454029DDC61B005D5DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A6E453F29DDC61B005D5DA4 /* PayPay.app */,
+				5A6E455529DDC61E005D5DA4 /* PayPayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A6E454129DDC61B005D5DA4 /* PayPay */ = {
+			isa = PBXGroup;
+			children = (
+				5A6E454229DDC61B005D5DA4 /* AppDelegate.swift */,
+				5A6E454429DDC61B005D5DA4 /* SceneDelegate.swift */,
+				5A6E454629DDC61B005D5DA4 /* ViewController.swift */,
+				5A6E454829DDC61B005D5DA4 /* Main.storyboard */,
+				5A6E454B29DDC61D005D5DA4 /* Assets.xcassets */,
+				5A6E454D29DDC61D005D5DA4 /* LaunchScreen.storyboard */,
+				5A6E455029DDC61D005D5DA4 /* Info.plist */,
+			);
+			path = PayPay;
+			sourceTree = "<group>";
+		};
+		5A6E455829DDC61E005D5DA4 /* PayPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A6E455929DDC61E005D5DA4 /* PayPayTests.swift */,
+			);
+			path = PayPayTests;
+			sourceTree = "<group>";
+		};
+		5A6E458429DDCE7F005D5DA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A6E453E29DDC61B005D5DA4 /* PayPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6E456929DDC61E005D5DA4 /* Build configuration list for PBXNativeTarget "PayPay" */;
+			buildPhases = (
+				5A6E453B29DDC61B005D5DA4 /* Sources */,
+				5A6E453C29DDC61B005D5DA4 /* Frameworks */,
+				5A6E453D29DDC61B005D5DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayPay;
+			packageProductDependencies = (
+				5A6E457329DDCC81005D5DA4 /* Differentiator */,
+				5A6E457529DDCC81005D5DA4 /* RxDataSources */,
+				5A6E457929DDCD59005D5DA4 /* RxFlow */,
+				5A6E457C29DDCDA3005D5DA4 /* RxSwiftExt */,
+				5A6E458529DDCE86005D5DA4 /* RxRealm */,
+				5A6E458729DDCE9D005D5DA4 /* RxMoya */,
+				5A6E458929DDCEA2005D5DA4 /* Moya */,
+			);
+			productName = PayPay;
+			productReference = 5A6E453F29DDC61B005D5DA4 /* PayPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A6E455429DDC61E005D5DA4 /* PayPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6E456C29DDC61E005D5DA4 /* Build configuration list for PBXNativeTarget "PayPayTests" */;
+			buildPhases = (
+				5A6E455129DDC61E005D5DA4 /* Sources */,
+				5A6E455229DDC61E005D5DA4 /* Frameworks */,
+				5A6E455329DDC61E005D5DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A6E455729DDC61E005D5DA4 /* PBXTargetDependency */,
+			);
+			name = PayPayTests;
+			productName = PayPayTests;
+			productReference = 5A6E455529DDC61E005D5DA4 /* PayPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A6E453729DDC61B005D5DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5A6E453E29DDC61B005D5DA4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5A6E455429DDC61E005D5DA4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5A6E453E29DDC61B005D5DA4;
+					};
+				};
+			};
+			buildConfigurationList = 5A6E453A29DDC61B005D5DA4 /* Build configuration list for PBXProject "PayPay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A6E453629DDC61B005D5DA4;
+			packageReferences = (
+				5A6E457229DDCC81005D5DA4 /* XCRemoteSwiftPackageReference "RxDataSources" */,
+				5A6E457729DDCCD7005D5DA4 /* XCRemoteSwiftPackageReference "Moya" */,
+				5A6E457829DDCD59005D5DA4 /* XCRemoteSwiftPackageReference "RxFlow" */,
+				5A6E457B29DDCDA3005D5DA4 /* XCRemoteSwiftPackageReference "RxSwiftExt" */,
+				5A6E458329DDCE2D005D5DA4 /* XCRemoteSwiftPackageReference "RxRealm" */,
+			);
+			productRefGroup = 5A6E454029DDC61B005D5DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A6E453E29DDC61B005D5DA4 /* PayPay */,
+				5A6E455429DDC61E005D5DA4 /* PayPayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A6E453D29DDC61B005D5DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6E454F29DDC61D005D5DA4 /* LaunchScreen.storyboard in Resources */,
+				5A6E454C29DDC61D005D5DA4 /* Assets.xcassets in Resources */,
+				5A6E454A29DDC61B005D5DA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6E455329DDC61E005D5DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A6E453B29DDC61B005D5DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6E454729DDC61B005D5DA4 /* ViewController.swift in Sources */,
+				5A6E454329DDC61B005D5DA4 /* AppDelegate.swift in Sources */,
+				5A6E454529DDC61B005D5DA4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6E455129DDC61E005D5DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6E455A29DDC61E005D5DA4 /* PayPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A6E455729DDC61E005D5DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A6E453E29DDC61B005D5DA4 /* PayPay */;
+			targetProxy = 5A6E455629DDC61E005D5DA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A6E454829DDC61B005D5DA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6E454929DDC61B005D5DA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A6E454D29DDC61D005D5DA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6E454E29DDC61D005D5DA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A6E456729DDC61E005D5DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A6E456829DDC61E005D5DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A6E456A29DDC61E005D5DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YN3DP5955V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PayPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duyquang.PayPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A6E456B29DDC61E005D5DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YN3DP5955V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PayPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duyquang.PayPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A6E456D29DDC61E005D5DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YN3DP5955V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duyquang.PayPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PayPay";
+			};
+			name = Debug;
+		};
+		5A6E456E29DDC61E005D5DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YN3DP5955V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duyquang.PayPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PayPay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A6E453A29DDC61B005D5DA4 /* Build configuration list for PBXProject "PayPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6E456729DDC61E005D5DA4 /* Debug */,
+				5A6E456829DDC61E005D5DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6E456929DDC61E005D5DA4 /* Build configuration list for PBXNativeTarget "PayPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6E456A29DDC61E005D5DA4 /* Debug */,
+				5A6E456B29DDC61E005D5DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6E456C29DDC61E005D5DA4 /* Build configuration list for PBXNativeTarget "PayPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6E456D29DDC61E005D5DA4 /* Debug */,
+				5A6E456E29DDC61E005D5DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A6E457229DDCC81005D5DA4 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		5A6E457729DDCCD7005D5DA4 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+		5A6E457829DDCD59005D5DA4 /* XCRemoteSwiftPackageReference "RxFlow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxFlow";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		5A6E457B29DDCDA3005D5DA4 /* XCRemoteSwiftPackageReference "RxSwiftExt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxSwiftExt";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		5A6E458329DDCE2D005D5DA4 /* XCRemoteSwiftPackageReference "RxRealm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxRealm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A6E457329DDCC81005D5DA4 /* Differentiator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A6E457229DDCC81005D5DA4 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = Differentiator;
+		};
+		5A6E457529DDCC81005D5DA4 /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A6E457229DDCC81005D5DA4 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
+		5A6E457929DDCD59005D5DA4 /* RxFlow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A6E457829DDCD59005D5DA4 /* XCRemoteSwiftPackageReference "RxFlow" */;
+			productName = RxFlow;
+		};
+		5A6E457C29DDCDA3005D5DA4 /* RxSwiftExt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A6E457B29DDCDA3005D5DA4 /* XCRemoteSwiftPackageReference "RxSwiftExt" */;
+			productName = RxSwiftExt;
+		};
+		5A6E458529DDCE86005D5DA4 /* RxRealm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A6E458329DDCE2D005D5DA4 /* XCRemoteSwiftPackageReference "RxRealm" */;
+			productName = RxRealm;
+		};
+		5A6E458729DDCE9D005D5DA4 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A6E457729DDCCD7005D5DA4 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		5A6E458929DDCEA2005D5DA4 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A6E457729DDCCD7005D5DA4 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5A6E453729DDC61B005D5DA4 /* Project object */;
+}
