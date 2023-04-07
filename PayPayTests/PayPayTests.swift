@@ -10,27 +10,27 @@ import XCTest
 
 final class PayPayTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+    func testRatesConvert() {
+        let rateModel = LatestRatesModel(timestamp: 0,
+                                    base: "USD",
+                                    rates: [
+                                        "VND": 23446.66014,
+                                        "JPY": 131.85310401
+                                    ])
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+        XCTAssertTrue(rateModel.getCurrencySymbols().contains("VND") && rateModel.getCurrencySymbols().contains("JPY"))
+        XCTAssertEqual(rateModel.rates, rateModel.getRates(fromBase: "USD"))
+        XCTAssertEqual([:], rateModel.getRates(fromBase: ""))
+        XCTAssertEqual([:], rateModel.getRates(fromBase: "Test"))
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
+        let newVND = rateModel.getRates(fromBase: "VND")
+        XCTAssertEqual(newVND["USD"], 1 / 23446.66014)
+        XCTAssertEqual(newVND["JPY"], 131.85310401 / 23446.66014)
+        XCTAssertNil(newVND["Test"])
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+        let newJPY = rateModel.getRates(fromBase: "JPY")
+        XCTAssertEqual(newJPY["USD"], 1 / 131.85310401)
+        XCTAssertEqual(newJPY["VND"], 23446.66014 / 131.85310401)
+        XCTAssertNil(newJPY["Test"])
     }
-
 }

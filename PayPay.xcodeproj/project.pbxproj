@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A3C92EF29DFFD8E005AAA19 /* LatestRatesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C92EE29DFFD8E005AAA19 /* LatestRatesResponse.swift */; };
+		5A3C92F529E00619005AAA19 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C92F429E00619005AAA19 /* ViewType.swift */; };
+		5A3C92F729E00628005AAA19 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C92F629E00628005AAA19 /* ViewModelType.swift */; };
+		5A3C92F929E00688005AAA19 /* RatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C92F829E00688005AAA19 /* RatesViewModel.swift */; };
+		5A3C92FB29E0126F005AAA19 /* RatesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C92FA29E0126F005AAA19 /* RatesRepository.swift */; };
+		5A3C92FD29E01CFF005AAA19 /* Extenions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C92FC29E01CFF005AAA19 /* Extenions.swift */; };
+		5A3C930029E0259E005AAA19 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C92FF29E0259E005AAA19 /* MBProgressHUD */; };
+		5A3C930229E02BB4005AAA19 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C930129E02BB4005AAA19 /* CurrencyModel.swift */; };
+		5A3C930529E03283005AAA19 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C930429E03283005AAA19 /* IQKeyboardManagerSwift */; };
 		5A6E454329DDC61B005D5DA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E454229DDC61B005D5DA4 /* AppDelegate.swift */; };
 		5A6E454529DDC61B005D5DA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E454429DDC61B005D5DA4 /* SceneDelegate.swift */; };
 		5A6E454729DDC61B005D5DA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E454629DDC61B005D5DA4 /* ViewController.swift */; };
@@ -16,11 +25,7 @@
 		5A6E455A29DDC61E005D5DA4 /* PayPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E455929DDC61E005D5DA4 /* PayPayTests.swift */; };
 		5A6E457429DDCC81005D5DA4 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E457329DDCC81005D5DA4 /* Differentiator */; };
 		5A6E457629DDCC81005D5DA4 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E457529DDCC81005D5DA4 /* RxDataSources */; };
-		5A6E457A29DDCD59005D5DA4 /* RxFlow in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E457929DDCD59005D5DA4 /* RxFlow */; };
 		5A6E457D29DDCDA3005D5DA4 /* RxSwiftExt in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E457C29DDCDA3005D5DA4 /* RxSwiftExt */; };
-		5A6E458629DDCE86005D5DA4 /* RxRealm in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E458529DDCE86005D5DA4 /* RxRealm */; };
-		5A6E458829DDCE9D005D5DA4 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E458729DDCE9D005D5DA4 /* RxMoya */; };
-		5A6E458A29DDCEA2005D5DA4 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E458929DDCEA2005D5DA4 /* Moya */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A3C92EE29DFFD8E005AAA19 /* LatestRatesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestRatesResponse.swift; sourceTree = "<group>"; };
+		5A3C92F429E00619005AAA19 /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
+		5A3C92F629E00628005AAA19 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		5A3C92F829E00688005AAA19 /* RatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesViewModel.swift; sourceTree = "<group>"; };
+		5A3C92FA29E0126F005AAA19 /* RatesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesRepository.swift; sourceTree = "<group>"; };
+		5A3C92FC29E01CFF005AAA19 /* Extenions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenions.swift; sourceTree = "<group>"; };
+		5A3C930129E02BB4005AAA19 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
 		5A6E453F29DDC61B005D5DA4 /* PayPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6E454229DDC61B005D5DA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A6E454429DDC61B005D5DA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,13 +63,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A6E458829DDCE9D005D5DA4 /* RxMoya in Frameworks */,
-				5A6E457A29DDCD59005D5DA4 /* RxFlow in Frameworks */,
+				5A3C930529E03283005AAA19 /* IQKeyboardManagerSwift in Frameworks */,
 				5A6E457429DDCC81005D5DA4 /* Differentiator in Frameworks */,
 				5A6E457D29DDCDA3005D5DA4 /* RxSwiftExt in Frameworks */,
+				5A3C930029E0259E005AAA19 /* MBProgressHUD in Frameworks */,
 				5A6E457629DDCC81005D5DA4 /* RxDataSources in Frameworks */,
-				5A6E458A29DDCEA2005D5DA4 /* Moya in Frameworks */,
-				5A6E458629DDCE86005D5DA4 /* RxRealm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +81,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A3C92E929DFF90C005AAA19 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C92EA29DFFD0F005AAA19 /* Rates */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		5A3C92EA29DFFD0F005AAA19 /* Rates */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C92ED29DFFD2A005AAA19 /* ViewModel */,
+				5A3C92EC29DFFD24005AAA19 /* Model */,
+				5A3C92EB29DFFD1D005AAA19 /* View */,
+			);
+			path = Rates;
+			sourceTree = "<group>";
+		};
+		5A3C92EB29DFFD1D005AAA19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A6E454629DDC61B005D5DA4 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A3C92EC29DFFD24005AAA19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C92EE29DFFD8E005AAA19 /* LatestRatesResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A3C92ED29DFFD2A005AAA19 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C92F829E00688005AAA19 /* RatesViewModel.swift */,
+				5A3C930129E02BB4005AAA19 /* CurrencyModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5A3C92F029E005DD005AAA19 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A6E454829DDC61B005D5DA4 /* Main.storyboard */,
+				5A6E454B29DDC61D005D5DA4 /* Assets.xcassets */,
+				5A6E454D29DDC61D005D5DA4 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5A3C92F129E005F0005AAA19 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C92FC29E01CFF005AAA19 /* Extenions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5A3C92F229E005F7005AAA19 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C92FA29E0126F005AAA19 /* RatesRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5A3C92F329E00609005AAA19 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C92F429E00619005AAA19 /* ViewType.swift */,
+				5A3C92F629E00628005AAA19 /* ViewModelType.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		5A6E453629DDC61B005D5DA4 = {
 			isa = PBXGroup;
 			children = (
@@ -93,12 +181,13 @@
 		5A6E454129DDC61B005D5DA4 /* PayPay */ = {
 			isa = PBXGroup;
 			children = (
+				5A3C92F329E00609005AAA19 /* Base */,
+				5A3C92F229E005F7005AAA19 /* Repository */,
+				5A3C92F129E005F0005AAA19 /* Extensions */,
+				5A3C92F029E005DD005AAA19 /* Resources */,
+				5A3C92E929DFF90C005AAA19 /* Features */,
 				5A6E454229DDC61B005D5DA4 /* AppDelegate.swift */,
 				5A6E454429DDC61B005D5DA4 /* SceneDelegate.swift */,
-				5A6E454629DDC61B005D5DA4 /* ViewController.swift */,
-				5A6E454829DDC61B005D5DA4 /* Main.storyboard */,
-				5A6E454B29DDC61D005D5DA4 /* Assets.xcassets */,
-				5A6E454D29DDC61D005D5DA4 /* LaunchScreen.storyboard */,
 				5A6E455029DDC61D005D5DA4 /* Info.plist */,
 			);
 			path = PayPay;
@@ -138,11 +227,9 @@
 			packageProductDependencies = (
 				5A6E457329DDCC81005D5DA4 /* Differentiator */,
 				5A6E457529DDCC81005D5DA4 /* RxDataSources */,
-				5A6E457929DDCD59005D5DA4 /* RxFlow */,
 				5A6E457C29DDCDA3005D5DA4 /* RxSwiftExt */,
-				5A6E458529DDCE86005D5DA4 /* RxRealm */,
-				5A6E458729DDCE9D005D5DA4 /* RxMoya */,
-				5A6E458929DDCEA2005D5DA4 /* Moya */,
+				5A3C92FF29E0259E005AAA19 /* MBProgressHUD */,
+				5A3C930429E03283005AAA19 /* IQKeyboardManagerSwift */,
 			);
 			productName = PayPay;
 			productReference = 5A6E453F29DDC61B005D5DA4 /* PayPay.app */;
@@ -196,10 +283,9 @@
 			mainGroup = 5A6E453629DDC61B005D5DA4;
 			packageReferences = (
 				5A6E457229DDCC81005D5DA4 /* XCRemoteSwiftPackageReference "RxDataSources" */,
-				5A6E457729DDCCD7005D5DA4 /* XCRemoteSwiftPackageReference "Moya" */,
-				5A6E457829DDCD59005D5DA4 /* XCRemoteSwiftPackageReference "RxFlow" */,
 				5A6E457B29DDCDA3005D5DA4 /* XCRemoteSwiftPackageReference "RxSwiftExt" */,
-				5A6E458329DDCE2D005D5DA4 /* XCRemoteSwiftPackageReference "RxRealm" */,
+				5A3C92FE29E0259E005AAA19 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				5A3C930329E03283005AAA19 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 5A6E454029DDC61B005D5DA4 /* Products */;
 			projectDirPath = "";
@@ -236,9 +322,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3C930229E02BB4005AAA19 /* CurrencyModel.swift in Sources */,
+				5A3C92F529E00619005AAA19 /* ViewType.swift in Sources */,
 				5A6E454729DDC61B005D5DA4 /* ViewController.swift in Sources */,
+				5A3C92F729E00628005AAA19 /* ViewModelType.swift in Sources */,
 				5A6E454329DDC61B005D5DA4 /* AppDelegate.swift in Sources */,
+				5A3C92FD29E01CFF005AAA19 /* Extenions.swift in Sources */,
 				5A6E454529DDC61B005D5DA4 /* SceneDelegate.swift in Sources */,
+				5A3C92FB29E0126F005AAA19 /* RatesRepository.swift in Sources */,
+				5A3C92F929E00688005AAA19 /* RatesViewModel.swift in Sources */,
+				5A3C92EF29DFFD8E005AAA19 /* LatestRatesResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,28 +616,28 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		5A3C92FE29E0259E005AAA19 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		5A3C930329E03283005AAA19 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 		5A6E457229DDCC81005D5DA4 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 5.0.0;
-			};
-		};
-		5A6E457729DDCCD7005D5DA4 /* XCRemoteSwiftPackageReference "Moya" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Moya/Moya";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 15.0.0;
-			};
-		};
-		5A6E457829DDCD59005D5DA4 /* XCRemoteSwiftPackageReference "RxFlow" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RxSwiftCommunity/RxFlow";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
 			};
 		};
 		5A6E457B29DDCDA3005D5DA4 /* XCRemoteSwiftPackageReference "RxSwiftExt" */ = {
@@ -555,17 +648,19 @@
 				minimumVersion = 6.0.0;
 			};
 		};
-		5A6E458329DDCE2D005D5DA4 /* XCRemoteSwiftPackageReference "RxRealm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RxSwiftCommunity/RxRealm";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5A3C92FF29E0259E005AAA19 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A3C92FE29E0259E005AAA19 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		5A3C930429E03283005AAA19 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A3C930329E03283005AAA19 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
 		5A6E457329DDCC81005D5DA4 /* Differentiator */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5A6E457229DDCC81005D5DA4 /* XCRemoteSwiftPackageReference "RxDataSources" */;
@@ -576,30 +671,10 @@
 			package = 5A6E457229DDCC81005D5DA4 /* XCRemoteSwiftPackageReference "RxDataSources" */;
 			productName = RxDataSources;
 		};
-		5A6E457929DDCD59005D5DA4 /* RxFlow */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5A6E457829DDCD59005D5DA4 /* XCRemoteSwiftPackageReference "RxFlow" */;
-			productName = RxFlow;
-		};
 		5A6E457C29DDCDA3005D5DA4 /* RxSwiftExt */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5A6E457B29DDCDA3005D5DA4 /* XCRemoteSwiftPackageReference "RxSwiftExt" */;
 			productName = RxSwiftExt;
-		};
-		5A6E458529DDCE86005D5DA4 /* RxRealm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5A6E458329DDCE2D005D5DA4 /* XCRemoteSwiftPackageReference "RxRealm" */;
-			productName = RxRealm;
-		};
-		5A6E458729DDCE9D005D5DA4 /* RxMoya */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5A6E457729DDCCD7005D5DA4 /* XCRemoteSwiftPackageReference "Moya" */;
-			productName = RxMoya;
-		};
-		5A6E458929DDCEA2005D5DA4 /* Moya */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5A6E457729DDCCD7005D5DA4 /* XCRemoteSwiftPackageReference "Moya" */;
-			productName = Moya;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
