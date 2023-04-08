@@ -22,6 +22,10 @@ extension UIViewController {
 
 extension Double {
     var currencyString: String {
-        String(format: "%.2f", self)
+        let formatter = NumberFormatter()
+        formatter.usesGroupingSeparator = true
+        formatter.maximumFractionDigits = 5
+        formatter.numberStyle = .decimal
+        return formatter.string(from: self as NSNumber) ?? "N/A"
     }
 }

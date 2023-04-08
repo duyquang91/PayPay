@@ -9,14 +9,10 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-struct RatesRepository {
-    enum RatesRepositoryError: Error {
-        case noCache
-    }
+struct RatesRepository: RatesRepositoryType {
 
     private let keyLatestRatesModel = "LatestRatesModel"
 
-    /// Fetch data from sever & update the local cache
     var latestRatesSingle: Single<LatestRatesModel> {
         let headers = ["accept": "application/json"]
 

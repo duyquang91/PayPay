@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A3C7B0129E14FF200F5A8F5 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C7B0029E14FF200F5A8F5 /* RxBlocking */; };
+		5A3C7B0329E150B100F5A8F5 /* RxCocoaRuntime.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A3C932A29E1446C005AAA19 /* RxCocoaRuntime.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5A3C7B0629E151C300F5A8F5 /* MockRatesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C932029E0B8B2005AAA19 /* MockRatesRepository.swift */; };
 		5A3C92EF29DFFD8E005AAA19 /* LatestRatesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C92EE29DFFD8E005AAA19 /* LatestRatesResponse.swift */; };
 		5A3C92F529E00619005AAA19 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C92F429E00619005AAA19 /* ViewType.swift */; };
 		5A3C92F729E00628005AAA19 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C92F629E00628005AAA19 /* ViewModelType.swift */; };
@@ -16,13 +19,19 @@
 		5A3C930029E0259E005AAA19 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C92FF29E0259E005AAA19 /* MBProgressHUD */; };
 		5A3C930229E02BB4005AAA19 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C930129E02BB4005AAA19 /* CurrencyModel.swift */; };
 		5A3C930529E03283005AAA19 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C930429E03283005AAA19 /* IQKeyboardManagerSwift */; };
+		5A3C931A29E0B658005AAA19 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C931929E0B658005AAA19 /* ViewModelTests.swift */; };
+		5A3C931E29E0B806005AAA19 /* RatesRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C931D29E0B806005AAA19 /* RatesRepositoryType.swift */; };
+		5A3C932529E143B8005AAA19 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C932429E143B8005AAA19 /* RxSwift */; };
+		5A3C932729E143BC005AAA19 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C932629E143BC005AAA19 /* RxCocoa */; };
+		5A3C932929E143C0005AAA19 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C932829E143C0005AAA19 /* RxRelay */; };
+		5A3C932E29E1449B005AAA19 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C932D29E1449B005AAA19 /* MBProgressHUD */; };
 		5A6E454329DDC61B005D5DA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E454229DDC61B005D5DA4 /* AppDelegate.swift */; };
 		5A6E454529DDC61B005D5DA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E454429DDC61B005D5DA4 /* SceneDelegate.swift */; };
 		5A6E454729DDC61B005D5DA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E454629DDC61B005D5DA4 /* ViewController.swift */; };
 		5A6E454A29DDC61B005D5DA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6E454829DDC61B005D5DA4 /* Main.storyboard */; };
 		5A6E454C29DDC61D005D5DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6E454B29DDC61D005D5DA4 /* Assets.xcassets */; };
 		5A6E454F29DDC61D005D5DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6E454D29DDC61D005D5DA4 /* LaunchScreen.storyboard */; };
-		5A6E455A29DDC61E005D5DA4 /* PayPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E455929DDC61E005D5DA4 /* PayPayTests.swift */; };
+		5A6E455A29DDC61E005D5DA4 /* RatesModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E455929DDC61E005D5DA4 /* RatesModelTests.swift */; };
 		5A6E457429DDCC81005D5DA4 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E457329DDCC81005D5DA4 /* Differentiator */; };
 		5A6E457629DDCC81005D5DA4 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E457529DDCC81005D5DA4 /* RxDataSources */; };
 		5A6E457D29DDCDA3005D5DA4 /* RxSwiftExt in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6E457C29DDCDA3005D5DA4 /* RxSwiftExt */; };
@@ -38,6 +47,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5A3C930E29E0B583005AAA19 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5A3C7B0329E150B100F5A8F5 /* RxCocoaRuntime.xcframework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		5A3C92EE29DFFD8E005AAA19 /* LatestRatesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestRatesResponse.swift; sourceTree = "<group>"; };
 		5A3C92F429E00619005AAA19 /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
@@ -46,6 +68,10 @@
 		5A3C92FA29E0126F005AAA19 /* RatesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesRepository.swift; sourceTree = "<group>"; };
 		5A3C92FC29E01CFF005AAA19 /* Extenions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenions.swift; sourceTree = "<group>"; };
 		5A3C930129E02BB4005AAA19 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		5A3C931929E0B658005AAA19 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		5A3C931D29E0B806005AAA19 /* RatesRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesRepositoryType.swift; sourceTree = "<group>"; };
+		5A3C932029E0B8B2005AAA19 /* MockRatesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRatesRepository.swift; sourceTree = "<group>"; };
+		5A3C932A29E1446C005AAA19 /* RxCocoaRuntime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RxCocoaRuntime.xcframework; sourceTree = "<group>"; };
 		5A6E453F29DDC61B005D5DA4 /* PayPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6E454229DDC61B005D5DA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A6E454429DDC61B005D5DA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +81,7 @@
 		5A6E454E29DDC61D005D5DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A6E455029DDC61D005D5DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A6E455529DDC61E005D5DA4 /* PayPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A6E455929DDC61E005D5DA4 /* PayPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPayTests.swift; sourceTree = "<group>"; };
+		5A6E455929DDC61E005D5DA4 /* RatesModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +89,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3C932929E143C0005AAA19 /* RxRelay in Frameworks */,
+				5A3C7B0129E14FF200F5A8F5 /* RxBlocking in Frameworks */,
 				5A3C930529E03283005AAA19 /* IQKeyboardManagerSwift in Frameworks */,
 				5A6E457429DDCC81005D5DA4 /* Differentiator in Frameworks */,
 				5A6E457D29DDCDA3005D5DA4 /* RxSwiftExt in Frameworks */,
 				5A3C930029E0259E005AAA19 /* MBProgressHUD in Frameworks */,
 				5A6E457629DDCC81005D5DA4 /* RxDataSources in Frameworks */,
+				5A3C932729E143BC005AAA19 /* RxCocoa in Frameworks */,
+				5A3C932529E143B8005AAA19 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3C932E29E1449B005AAA19 /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				5A3C92FA29E0126F005AAA19 /* RatesRepository.swift */,
+				5A3C931D29E0B806005AAA19 /* RatesRepositoryType.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -196,7 +228,10 @@
 		5A6E455829DDC61E005D5DA4 /* PayPayTests */ = {
 			isa = PBXGroup;
 			children = (
-				5A6E455929DDC61E005D5DA4 /* PayPayTests.swift */,
+				5A3C932A29E1446C005AAA19 /* RxCocoaRuntime.xcframework */,
+				5A6E455929DDC61E005D5DA4 /* RatesModelTests.swift */,
+				5A3C932029E0B8B2005AAA19 /* MockRatesRepository.swift */,
+				5A3C931929E0B658005AAA19 /* ViewModelTests.swift */,
 			);
 			path = PayPayTests;
 			sourceTree = "<group>";
@@ -230,6 +265,10 @@
 				5A6E457C29DDCDA3005D5DA4 /* RxSwiftExt */,
 				5A3C92FF29E0259E005AAA19 /* MBProgressHUD */,
 				5A3C930429E03283005AAA19 /* IQKeyboardManagerSwift */,
+				5A3C932429E143B8005AAA19 /* RxSwift */,
+				5A3C932629E143BC005AAA19 /* RxCocoa */,
+				5A3C932829E143C0005AAA19 /* RxRelay */,
+				5A3C7B0029E14FF200F5A8F5 /* RxBlocking */,
 			);
 			productName = PayPay;
 			productReference = 5A6E453F29DDC61B005D5DA4 /* PayPay.app */;
@@ -242,6 +281,7 @@
 				5A6E455129DDC61E005D5DA4 /* Sources */,
 				5A6E455229DDC61E005D5DA4 /* Frameworks */,
 				5A6E455329DDC61E005D5DA4 /* Resources */,
+				5A3C930E29E0B583005AAA19 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -249,6 +289,9 @@
 				5A6E455729DDC61E005D5DA4 /* PBXTargetDependency */,
 			);
 			name = PayPayTests;
+			packageProductDependencies = (
+				5A3C932D29E1449B005AAA19 /* MBProgressHUD */,
+			);
 			productName = PayPayTests;
 			productReference = 5A6E455529DDC61E005D5DA4 /* PayPayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -286,6 +329,7 @@
 				5A6E457B29DDCDA3005D5DA4 /* XCRemoteSwiftPackageReference "RxSwiftExt" */,
 				5A3C92FE29E0259E005AAA19 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
 				5A3C930329E03283005AAA19 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				5A3C930B29E0B539005AAA19 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 5A6E454029DDC61B005D5DA4 /* Products */;
 			projectDirPath = "";
@@ -323,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A3C930229E02BB4005AAA19 /* CurrencyModel.swift in Sources */,
+				5A3C931E29E0B806005AAA19 /* RatesRepositoryType.swift in Sources */,
 				5A3C92F529E00619005AAA19 /* ViewType.swift in Sources */,
 				5A6E454729DDC61B005D5DA4 /* ViewController.swift in Sources */,
 				5A3C92F729E00628005AAA19 /* ViewModelType.swift in Sources */,
@@ -339,7 +384,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A6E455A29DDC61E005D5DA4 /* PayPayTests.swift in Sources */,
+				5A3C7B0629E151C300F5A8F5 /* MockRatesRepository.swift in Sources */,
+				5A3C931A29E0B658005AAA19 /* ViewModelTests.swift in Sources */,
+				5A6E455A29DDC61E005D5DA4 /* RatesModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,6 +679,14 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		5A3C930B29E0B539005AAA19 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 		5A6E457229DDCC81005D5DA4 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources";
@@ -651,6 +706,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5A3C7B0029E14FF200F5A8F5 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A3C930B29E0B539005AAA19 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
 		5A3C92FF29E0259E005AAA19 /* MBProgressHUD */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5A3C92FE29E0259E005AAA19 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
@@ -660,6 +720,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5A3C930329E03283005AAA19 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
+		};
+		5A3C932429E143B8005AAA19 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A3C930B29E0B539005AAA19 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		5A3C932629E143BC005AAA19 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A3C930B29E0B539005AAA19 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		5A3C932829E143C0005AAA19 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A3C930B29E0B539005AAA19 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		5A3C932D29E1449B005AAA19 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A3C92FE29E0259E005AAA19 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
 		};
 		5A6E457329DDCC81005D5DA4 /* Differentiator */ = {
 			isa = XCSwiftPackageProductDependency;

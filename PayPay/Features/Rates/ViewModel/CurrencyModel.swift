@@ -6,8 +6,15 @@
 //
 
 import Foundation
+import RxDataSources
 
-struct CurrencyModel {
+struct CurrencyModel: Equatable {
     let symbol: String
     let value: Double
+}
+
+extension CurrencyModel: IdentifiableType {
+    var identity: String {
+        symbol
+    }
 }

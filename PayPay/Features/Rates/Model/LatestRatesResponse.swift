@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxDataSources
 
 struct LatestRatesModel: Codable, Equatable {
     let timestamp: TimeInterval

@@ -8,15 +8,10 @@
 import XCTest
 @testable import PayPay
 
-final class PayPayTests: XCTestCase {
+final class RatesModelTests: XCTestCase {
 
     func testRatesConvert() {
-        let rateModel = LatestRatesModel(timestamp: 0,
-                                    base: "USD",
-                                    rates: [
-                                        "VND": 23446.66014,
-                                        "JPY": 131.85310401
-                                    ])
+        let rateModel = LatestRatesModel.mock
 
         XCTAssertTrue(rateModel.getCurrencySymbols().contains("VND") && rateModel.getCurrencySymbols().contains("JPY"))
         XCTAssertEqual(rateModel.rates, rateModel.getRates(fromBase: "USD"))
